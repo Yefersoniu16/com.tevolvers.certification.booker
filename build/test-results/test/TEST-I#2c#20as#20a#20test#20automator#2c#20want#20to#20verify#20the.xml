@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="I, as a test automator, want to verify the" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-28T10:05:41" hostname="LAPTOP-ITTNAF90" time="6.682">
+  <properties/>
+  <testcase name="test create booking" classname="I, as a test automator, want to verify the" time="4.732"/>
+  <testcase name="Consult get booking for id" classname="I, as a test automator, want to verify the" time="0.492"/>
+  <testcase name="Perform update booking for id" classname="I, as a test automator, want to verify the" time="1.449"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
+    implementation 'net.serenity-bdd:serenity-core:2.0.49'
+    implementation 'net.serenity-bdd:serenity-cucumber:1.9.31'
+    implementation 'net.serenity-bdd:serenity-screenplay:2.0.49'
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:2.0.49'
+    //implementation 'org.seleniumhq.selenium:selenium-server:3.14.0'
+    implementation "org.assertj:assertj-core:3.19.0"
+    implementation "net.serenity-bdd:serenity-screenplay-rest:2.0.49"
+
+
+
+}
